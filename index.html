@@ -31,32 +31,22 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+        <h3>Abstract</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>Long-running HPC applications guard against node failures by writing checkpoints to parallel file systems. Writing these checkpoints with petascale class machines has proven difficult and the increased concurrency demands of exascale computing will exacerbate this problem. To meet checkpointing demands and sustain application-perceived throughput at exascale, multi-tiered hierarchical storage architectures involving solid-state burst buffers are being considered. In this paper, we describe the design and implementation of cento, a multi-level, content-addressable checkpoint file system for large-scale HPC systems. cento achieves in-flight checkpoint data reduction across all compute nodes through compression and elimination of duplicate blocks over a series of checkpoints. Through a detailed analysis of checkpoint dumps, we assess the benefits of data reduction for scientific applications that are representative of production workloads. We observe upto 40% data reduction within a limited sample of representative workloads. Finally, experiments on existing systems show a decrease in checkpoint commit latencies by 5 to 20% reducing the load on the parallel file system.</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<h3>Publications</h3>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p><a href="http://www.cs.indiana.edu/~adkulkar/papers/cento.pdf">The Design and Implementation of a Multi-level Content-Addressable Checkpoint File System</a>
+Abhishek Kulkarni and Adam Manzanares and Latchesar Ionkov and Michael Lang and Andrew Lumsdaine. The 19th International Conference on High Performance Computing (HiPC 2012)</p>
 
-<h3>Designer Templates</h3>
+<h3>Download</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+Source code will be available soon.
 
-<h3>Rather Drive Stick?</h3>
+<h3>Contact</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>For more information on cento, please see the publication linked above. Contact the author at <a href="mailto:adkulkar@crest.iu.edu">adkulkar@crest.iu.edu</a> for further questions.</p>
       </section>
     </div>
 
